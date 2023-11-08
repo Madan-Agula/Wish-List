@@ -1,0 +1,76 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+*{
+    margin: 0 ;
+    color: #f9fafb;
+  --background-color: #111827;
+}
+
+
+body {
+  background-color: var(--background-color);
+}
+
+#parent-container{
+  width:100% ;
+  min-height: 200px;
+  margin: 30px auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.form-input{
+  width: 300px;
+  height: 43px;
+  border: none;
+  font-size: 20px;
+  color:#111827;
+}
+
+.label-strike{
+  text-decoration: line-through;
+}
+.list-parent{
+  position: relative;
+  width: 400px;
+  min-height:10px;
+  margin-top: 10px;
+}
+.label{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.check-box{
+  width: 30px;
+  height: 20px;
+}
+.edit-btn {
+  position: absolute;
+  right: 28px;
+  min-width: 5px;
+  min-height: 10px;
+  
+}
+
+.del-btn {
+  position: absolute;
+  right: 0; 
+  min-width: 5px;
+  min-height: 10px;
+  border: 1px solid;
+}
+.edit-btn,
+.del-btn {
+  background-color: transparent;
+  border: none; 
+}
+
+.listcontainer{
+  display: flex;
+  flex-flow: column wrap;
+}
+.small{
+  font-size: 22px;
+}
